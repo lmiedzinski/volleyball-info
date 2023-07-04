@@ -1,5 +1,5 @@
 using VolleyballInfo.DataGathererService.Application.Abstractions.Messaging;
 
-namespace VolleyballInfo.DataGathererService.Application.VolleyballInformation.GatherVolleyballInformation;
+namespace VolleyballInfo.DataGathererService.Application.VolleyballInformation.GatherNationsLeagueInformation;
 
 public sealed record GatherNationsLeagueInformationCommand : ICommand;

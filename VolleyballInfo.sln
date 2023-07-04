@@ -6,7 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VolleyballInfo.DataUpdaterS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VolleyballInfo.DataGatewayService", "VolleyballInfo.DataGatewayService", "{D6C39DE7-266B-4717-B8EC-F2D51DDF26CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolleyballInfo.DataGathererService.WebApp", "src\VolleyballInfo.DataGathererService\VolleyballInfo.DataGathererService.WebApp\VolleyballInfo.DataGathererService.WebApp.csproj", "{70E0ED6C-BA1E-4750-A8A8-F2DD3E17D111}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolleyballInfo.DataGathererService.WebApi", "src\VolleyballInfo.DataGathererService\VolleyballInfo.DataGathererService.WebApi\VolleyballInfo.DataGathererService.WebApi.csproj", "{70E0ED6C-BA1E-4750-A8A8-F2DD3E17D111}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolleyballInfo.DataGathererService.Infrastructure", "src\VolleyballInfo.DataGathererService\VolleyballInfo.DataGathererService.Infrastructure\VolleyballInfo.DataGathererService.Infrastructure.csproj", "{1847C9B3-CAC8-4DA1-910B-2BA20C4DEF7F}"
 EndProject

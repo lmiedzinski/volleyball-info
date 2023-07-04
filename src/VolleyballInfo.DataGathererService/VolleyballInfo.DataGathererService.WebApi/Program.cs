@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Serilog;
 using VolleyballInfo.DataGathererService.Application;
 using VolleyballInfo.DataGathererService.Infrastructure;
-using VolleyballInfo.DataGathererService.WebApp.BackgroundServices;
+using VolleyballInfo.DataGathererService.WebApi.BackgroundService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +17,8 @@ builder.Services
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 builder.Services.AddHostedService<DataGathererBackgroundService>();
+builder.Services.AddOptions<BackgroundServiceOptions>()
+    .Bind(builder.Configuration.GetSection(BackgroundServiceOptions.SectionName));
 
 var app = builder.Build();
 
