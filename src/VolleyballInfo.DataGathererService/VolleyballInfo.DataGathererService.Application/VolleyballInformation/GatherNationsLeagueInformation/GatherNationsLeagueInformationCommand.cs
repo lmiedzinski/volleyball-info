@@ -2,4 +2,4 @@ using VolleyballInfo.DataGathererService.Application.Abstractions.Messaging;
 
 namespace VolleyballInfo.DataGathererService.Application.VolleyballInformation.GatherVolleyballInformation;
 
-public sealed record GatherVolleyballInformationCommand : ICommand;
+public sealed record GatherNationsLeagueInformationCommand : ICommand;
