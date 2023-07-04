@@ -12,9 +12,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolleyballInfo.DataGatherer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolleyballInfo.DataGathererService.Application", "src\VolleyballInfo.DataGathererService\VolleyballInfo.DataGathererService.Application\VolleyballInfo.DataGathererService.Application.csproj", "{A325F7AE-5641-40C2-804A-0771A26C8B6E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VolleyballInfo.Common", "VolleyballInfo.Common", "{48636B6D-24C9-4191-9877-99C059C91633}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VolleyballInfo.Common", "src\VolleyballInfo.Common", "{48636B6D-24C9-4191-9877-99C059C91633}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolleyballInfo.Common", "VolleyballInfo.Common\VolleyballInfo.Common\VolleyballInfo.Common.csproj", "{940DCBE8-1F6E-4D95-AFF7-60C5F93610AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolleyballInfo.Common", "src\VolleyballInfo.Common\VolleyballInfo.Common\VolleyballInfo.Common.csproj", "{940DCBE8-1F6E-4D95-AFF7-60C5F93610AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

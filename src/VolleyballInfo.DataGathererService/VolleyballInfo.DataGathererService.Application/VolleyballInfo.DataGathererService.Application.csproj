@@ -12,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\VolleyballInfo.Common\VolleyballInfo.Common\VolleyballInfo.Common.csproj" />
+      <ProjectReference Include="..\..\VolleyballInfo.Common\VolleyballInfo.Common\VolleyballInfo.Common.csproj" />
     </ItemGroup>
 
 </Project>
